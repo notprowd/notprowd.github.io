@@ -1,0 +1,386 @@
+@font-face {
+    font-family:"player2" ;
+    src: url(imgs/Press_Start_2P/PressStart2P-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family:"Plex_Mono" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:"Plex_Mono_bold" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  }
+  
+  h1 {font-family: "player2";}
+  
+  h5 {font-family: 'Plex_Mono';
+    font-size: 16px;}
+    
+background-color:black
+
+  .flexright {
+      display: flex;
+      flex-wrap:flexwrap;
+    }
+    
+    .flexright > div {
+      width: 500px;
+      margin: 1px;
+      text-align: right;
+      line-height: 75px;
+      font-family: 'plex_mono';
+      font-size: 15px;
+      color:black
+    }
+  
+  .flexleft {
+      display: flex;
+      flex-wrap:flexwrap;
+    }
+    
+    .flexleft > div {
+      width: 500px;
+      margin: 1px;
+      text-align: left;
+      line-height: 75px;
+      font-family:'plex_mono';
+      font-size: 15px;
+      color:black
+    }
+  
+  .flexcenter {
+      display: flex;
+      flex-wrap:flexwrap;
+    }
+    
+    .flexcenter > div {
+      width: 500px;
+      margin: 1px;
+      text-align: center;
+      line-height: 75px;
+      font-family:'plex_mono';
+      font-size: 15px;
+      color:black
+     
+    }
+  
+  .box {
+    box-shadow: 5px 5px 12px #ff073a;
+    border-style:inset;
+    background-color: white;
+    padding: 10px;
+    display: inline;
+    margin:-100;
+    font-size: medium;
+    font-weight: bold ;
+    color: #ff073a;
+   
+    }
+  
+  body {font-family: 'plex_mono';
+      font-size: larger};
+  
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+
+
+    marquee {font-size: 15px;}
+
+    .box-run1{
+      position: absolute;
+      top: 1190px;
+      left: 750px;
+      z-index: 1;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      padding: 10px;
+      display: inline;
+      margin: 1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: larger;
+      font-weight: bold ;
+      color: #ff073a;
+    }
+    
+    .box-run2 {
+      position: absolute;
+      top: 1240px;
+      left: 810px;
+      padding: 10px;
+      z-index: 2;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: larger;
+      font-weight: bold ;
+      color: #ff073a;
+    }
+
+    .box-run3 {
+      position: absolute;
+      top: 1200px;
+      left: 850px;
+      padding: 10px;
+      z-index: 3;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: larger;
+      font-weight: bold ;
+      color: #ff073a;
+    }
+    .box-run4 {
+      position: absolute;
+      top: 1230px;
+      left: 890px;
+      padding: 10px;
+      z-index: 4;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: larger;
+      font-weight: bold ;
+      color: #ff073a;
+    }
+    .box-run5 {
+      position: absolute;
+      top: 1175px;
+      left: 900px;
+      padding: 10px;
+      z-index: 5;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: larger;
+      font-weight: bold ;
+      color: #ff073a;
+    }
+    .box-run6 {
+      position: absolute;
+      top: 1180px;
+      left: 800px;
+      padding: 10px;
+      z-index: 6;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: larger;
+      font-weight: bold ;
+      color: #ff073a;
+    }
+    .box-run7{
+        position: absolute;
+        top: 1235px;
+        left: 850px;
+        z-index: 1;
+        box-shadow: 5px 5px 12px #ff073a;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        display: inline;
+        margin: 1px;
+        font-family:"Plex_Mono_bold" ;
+        font-size: larger;
+        font-weight: bold ;
+        color: #ff073a;
+      }
+
+      .box-backtome{
+        position: absolute;
+        top: 1600px;
+        left: 150px;
+        z-index: 100;
+        box-shadow: 5px 5px 12px #ff073a;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        line-height: 7px;
+        display: inline;
+        margin: 1px;
+        font-family:"Plex_Mono_bold" ;
+        font-size: x-small;
+        font-weight: bold ;
+        color: #ff073a;
+      }
+
+      .box-shift{
+        position: absolute;
+        top: 1800px;
+        left: 160px;
+        z-index: 100;
+        box-shadow: 5px 5px 12px #ff073a;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        line-height: 7px;
+        display: inline;
+        margin: 1px;
+        font-family:"Plex_Mono_bold" ;
+        font-size: x-small;
+        font-weight: bold ;
+        color: #ff073a;
+      }
+      .box-nauseous{
+        position: absolute;
+        top: 1850px;
+        left: 300px;
+        z-index: 100;
+        box-shadow: 5px 5px 12px #ff073a;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        line-height: 7px;
+        display: inline;
+        margin: 1px;
+        font-family:"Plex_Mono_bold" ;
+        font-size: x-small;
+        font-weight: bold ;
+        color: #ff073a;
+      }
+
+      .boxxxsmall {
+        box-shadow: 5px 5px 12px #ff073a;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        display: inline;
+        margin:-100;
+        font-size: xx-small;
+        font-family:"plex_mono_bold" ;
+        color: #ff073a;
+       
+        }
+
+        .boxsmall {
+          box-shadow: 5px 5px 12px #ff073a;
+          border-style:inset;
+          background-color: white;
+          padding: 10px;
+          display: inline;
+          margin:-100;
+          font-size: small;
+          font-family:"plex_mono" ;
+          color: #ff073a;
+         
+          }
+
+          .boxlarge {
+            box-shadow: 5px 5px 12px #ff073a;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            margin:-100;
+            font-size: x-large;
+            font-family:"plex_mono" ;
+            color: #ff073a;
+           
+            }
+
+            .box-nom{
+              position: absolute;
+              top: 2700px;
+              left: 800px;
+              z-index: 100;
+              box-shadow: 5px 5px 12px #ff073a;
+              border-style:inset;
+              background-color: white;
+              padding: 10px;
+              line-height: 7px;
+              display: inline;
+              margin: 1px;
+              font-family:"Plex_Mono_bold" ;
+              font-size: small;
+              font-weight: bold ;
+              color: #ff073a;
+            }
+
+.box-cold1{
+  position: absolute;
+  top: 3060px;
+  left: 1100px;
+  z-index: 1;
+  box-shadow: 5px 5px 12px #ff073a;
+  border-style:inset;
+  background-color: white;
+  line-height: 7px;
+  padding: 10px;
+  display: inline;
+  margin: 1px;
+  font-family:"Plex_Mono_bold" ;
+  font-size: small;
+  font-weight: bold ;
+   color: #ff073a;
+    }
+    .box-cold2{
+      position: absolute;
+      top: 3110px;
+      left: 1150px;
+      z-index: 3;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      line-height: 7px;
+      padding: 10px;
+      display: inline;
+      margin: 1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: small;
+      font-weight: bold ;
+       color: #ff073a;
+    }
+    .box-cold3{
+      position: absolute;
+      top: 3080px;
+      left: 1130px;
+      z-index: 2;
+      box-shadow: 5px 5px 12px #ff073a;
+      border-style:inset;
+      background-color: white;
+      line-height: 7px;
+      padding: 10px;
+      display: inline;
+      margin: 1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: small;
+      font-weight: bold ;
+       color: #ff073a;
+        }
+        .box-cold4{
+          position: absolute;
+          top: 3080px;
+          left: 1110px;
+          z-index: 2;
+          box-shadow: 5px 5px 12px #ff073a;
+          border-style:inset;
+          background-color: white;
+          line-height: 7px;
+          padding: 10px;
+          display: inline;
+          margin: 1px;
+          font-family:"Plex_Mono_bold" ;
+          font-size: small;
+          font-weight: bold ;
+           color: #ff073a;
+            }

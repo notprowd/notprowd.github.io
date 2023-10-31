@@ -1,0 +1,79 @@
+@font-face {
+  font-family:"player2" ;
+  src: url(imgs/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  font-family:"Plex_Mono" ;
+  src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+
+h1 {font-family: "player2";}
+
+h5 {font-family: 'Plex_Mono';
+  font-size: 16px;}
+
+.flexright {
+    display: flex;
+    flex-wrap:flexwrap;
+  }
+  
+  .flexright > div {
+    width: 500px;
+    margin: 1px;
+    text-align: right;
+    line-height: 75px;
+    font-family: 'plex_mono';
+    font-size: 15px;
+    color:white
+  }
+
+.flexleft {
+    display: flex;
+    flex-wrap:flexwrap;
+  }
+  
+  .flexleft > div {
+    width: 500px;
+    margin: 1px;
+    text-align: left;
+    line-height: 75px;
+    font-family:'plex_mono';
+    font-size: 15px;
+    color:white
+  }
+
+.flexcenter {
+    display: flex;
+    flex-wrap:flexwrap;
+  }
+  
+  .flexcenter > div {
+    width: 500px;
+    margin: 1px;
+    text-align: center;
+    line-height: 75px;
+    font-family:'plex_mono';
+    font-size: 15px;
+    color:white
+   
+  }
+
+.box {
+    border-style: inset;
+    padding: 2px;
+    display: inline;
+  }
+
+body {font-family: 'plex_mono';
+    font-size: larger};
+
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    p:hover, a:hover {
+        color: black;
+
+      }

@@ -1,0 +1,15 @@
+@font-face {
+    font-family:"player2" ;
+    src: url(imgs/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Plex_Mono" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+
+h1 {font-family: "player2";}
+
+h5 {font-family: 'Plex_Mono';
+    font-size: 16px;}
+

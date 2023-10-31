@@ -1,0 +1,67 @@
+h1 {font-family:'Helvetica Neue'}
+h5 {font-family:'Helvetica Neue'}
+
+.flexright {
+    display: flex;
+    flex-wrap:flexwrap;
+  }
+  
+  .flexright > div {
+    width: 500px;
+    margin: 1px;
+    text-align: right;
+    line-height: 75px;
+    font-family: monospace;
+    font-size: 15px;
+    color:white
+  }
+
+.flexleft {
+    display: flex;
+    flex-wrap:flexwrap;
+  }
+  
+  .flexleft > div {
+    width: 500px;
+    margin: 1px;
+    text-align: left;
+    line-height: 75px;
+    font-family: monospace;
+    font-size: 15px;
+    color:white
+  }
+
+.flexcenter {
+    display: flex;
+    flex-wrap:flexwrap;
+  }
+  
+  .flexcenter > div {
+    width: 500px;
+    margin: 1px;
+    text-align: center;
+    line-height: 75px;
+    font-family: monospace;
+    font-size: 15px;
+    color:white
+   
+  }
+
+.box {
+    border-style: inset;
+    padding: 2px;
+    display: inline;
+  }
+
+body {font-family: monospace;
+    font-size: larger};
+
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    p:hover, a:hover {
+        color: black;
+
+      }
