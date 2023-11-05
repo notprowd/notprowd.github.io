@@ -1,0 +1,328 @@
+@font-face {
+    font-family:"player2" ;
+    src: url(imgs/Press_Start_2P/PressStart2P-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family:"Plex_Mono" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:"Plex_Mono_bold" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  }
+  
+  h1 {font-family: "player2";}
+  
+  h5 {font-family: 'Plex_Mono';
+    font-size: 16px;}
+    
+background-color:black
+
+  .flexright {
+      display: flex;
+      flex-wrap:flexwrap;
+    }
+    
+    .flexright > div {
+      width: 500px;
+      margin: 1px;
+      text-align: right;
+      line-height: 75px;
+      font-family: 'plex_mono';
+      font-size: 15px;
+      color:black
+    }
+  
+  .flexleft {
+      display: flex;
+      flex-wrap:flexwrap;
+    }
+    
+    .flexleft > div {
+      width: 500px;
+      margin: 1px;
+      text-align: left;
+      line-height: 75px;
+      font-family:'plex_mono';
+      font-size: 15px;
+      color:black
+    }
+  
+  .flexcenter {
+      display: flex;
+      flex-wrap:flexwrap;
+    }
+    
+    .flexcenter > div {
+      width: 500px;
+      margin: 1px;
+      text-align: center;
+      line-height: 75px;
+      font-family:'plex_mono';
+      font-size: 15px;
+      color:black
+     
+    }
+  
+  .box {
+    box-shadow: 5px 5px 12px #1900ff;
+    border-style:inset;
+    background-color: white;
+    padding: 10px;
+    display: inline;
+    margin:-100;
+    font-size: 14px;
+    font-weight: bold ;
+    color: #1900ff;
+   
+    }
+  
+  body {font-family: 'plex_mono';
+      font-size: larger};
+  
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+
+
+    marquee {font-size: 15px;}
+
+    .box-binky{
+      position: absolute;
+      top: 1900px;
+      left: 730px;
+      z-index: 1;
+      box-shadow: 5px 5px 12px #1900ff;
+      border-style:inset;
+      background-color: white;
+      padding: 10px;
+      display: inline;
+      margin: 1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: larger;
+      font-weight: bold ;
+      color: #1900ff;
+    }
+
+    .box-hot{
+      position: absolute;
+      top: 2200px;
+      left: 1050px;
+      z-index: 1;
+      box-shadow: 5px 5px 12px #1900ff;
+      border-style:inset;
+      background-color: white;
+      padding: 10px;
+      display: inline;
+      margin: 1px;
+      font-family:"Plex_Mono_bold" ;
+      font-size: x-small;
+      font-weight: bold ;
+      color: #1900ff;
+    }
+
+
+    .boxxxsmall {
+      box-shadow: 5px 5px 12px #1900ff;
+      border-style:inset;
+      background-color: white;
+      padding: 10px;
+      display: inline;
+      margin:-100;
+      font-size: xx-small;
+      font-family:"plex_mono_bold" ;
+      color: #1900ff;
+     
+      }
+
+      .boxsmall {
+        box-shadow: 5px 5px 12px #1900ff;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        display: inline;
+        margin:-100;
+        font-size: 11px;
+        font-family:"plex_mono" ;
+        color: #1900ff;
+       
+        }
+
+        .boxlarge {
+          box-shadow: 5px 5px 12px #1900ff;
+          border-style:inset;
+          background-color: white;
+          padding: 10px;
+          display: inline;
+          margin:-100;
+          font-size: x-large;
+          font-family:"plex_mono" ;
+          color: #1900ff;
+         
+          }
+
+          .box-wind{
+            position: absolute;
+            top: 2370px;
+            left: 455px;
+            z-index: 1;
+            box-shadow: 5px 5px 12px #1900ff;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            margin: 1px;
+            font-family:"Plex_Mono_bold" ;
+            font-size: x-large;
+            font-weight: bold ;
+            color: #1900ff;
+          }
+
+          .box-loud{
+            position: absolute;
+            top: 2780px;
+            left: 290px;
+            z-index: 1;
+            box-shadow: 5px 5px 12px #1900ff;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            margin: 1px;
+            font-family:"Plex_Mono_bold" ;
+            font-size: x-small;
+            font-weight: bold ;
+            color: #1900ff;
+          }
+
+          .box-whitney{
+            position: absolute;
+            top: 3100;
+            left: 25px;
+            z-index: 1;
+            box-shadow: 5px 5px 12px #1900ff;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            line-height: 10px;
+            display: inline;
+            margin: 1px;
+            font-family:"Plex_Mono_bold" ;
+            font-size: large;
+            font-weight: bold ;
+            color: #1900ff;
+          }
+      
+          .box-mrbrightside{
+            position: absolute;
+            top: 3500px;
+            left: 50px;
+            z-index: 2;
+            box-shadow: 5px 5px 12px #1900ff;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            line-height: 10px;
+            display: inline;
+            margin: 1px;
+            font-family:"Plex_Mono_bold" ;
+            font-size: large;
+            font-weight: bold ;
+            color: #1900ff;
+          }
+
+          .box-talking{
+            position: absolute;
+            top: 3200px;
+            left: 1020px;
+            z-index: 2;
+            box-shadow: 5px 5px 12px #1900ff;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            line-height: 7px;
+            display: inline;
+            margin: 1px;
+            font-family:"Plex_Mono_bold" ;
+            font-size: medium;
+            font-weight: bold ;
+            color: #1900ff;
+          }
+      
+          .boxbold {
+            box-shadow: 5px 5px 12px #1900ff;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            margin:-100;
+            font-size: medium;
+            font-family:"plex_mono_bold" ;
+            color: #1900ff;
+           
+            }
+
+            .boxbold-large {
+              box-shadow: 5px 5px 12px #1900ff;
+              border-style:inset;
+              background-color: white;
+              padding: 10px;
+              display: inline;
+              margin:-100;
+              font-size: large;
+              font-family:"plex_mono_bold" ;
+              color: #1900ff;
+             
+              }
+
+
+            .boxbold {
+              box-shadow: 5px 5px 12px #1900ff;
+              border-style:inset;
+              background-color: white;
+              padding: 10px;
+              display: inline;
+              margin:-100;
+              font-size: medium;
+              font-family:"plex_mono_bold" ;
+              color: #1900ff;
+             
+              }
+
+              .box-here{
+                position: absolute;
+                top: 4500px;
+                left: 930px;
+                z-index: 1;
+                box-shadow: 5px 5px 12px #1900ff;
+                border-style:inset;
+                background-color: white;
+                padding: 10px;
+                display: inline;
+                margin: 1px;
+                font-family:"Plex_Mono_bold" ;
+                font-size: xx-large;
+                font-weight: bold ;
+                color: #1900ff;
+              }
+
+              .box-nom{
+                position: absolute;
+                top: 4800px;
+                left: 800px;
+                z-index: 1;
+                box-shadow: 5px 5px 12px #1900ff;
+                border-style:inset;
+                background-color: white;
+                padding: 10px;
+                display: inline;
+                margin: 1px;
+                font-family:"Plex_Mono_bold" ;
+                font-size: x-small;
+                font-weight: bold ;
+                color: #1900ff;
+              }
