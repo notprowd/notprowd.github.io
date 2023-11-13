@@ -1,0 +1,329 @@
+@font-face {
+    font-family:"player2" ;
+    src: url(imgs/Press_Start_2P/PressStart2P-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family:"Plex_Mono" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:"Plex_Mono_bold" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  }
+  
+  h1 {font-family: "player2";}
+  
+  h5 {font-family: 'Plex_Mono';
+    font-size: 16px;}
+    
+.wrapper {overflow: auto;}
+
+#main {margin-left: 0px;}
+
+@media screen and (min-width: 480px){
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+  #main {margin-right: 216px;}
+}
+
+::selection {
+    background-color: rgba(0, 252, 29, 0.478);
+    color:crimson
+}
+
+@media screen and (max-width: 600px) {
+  body {
+ font-size: 12px;
+ 
+  }}
+
+  @media screen and (max-width: 600px) {
+    img {
+      width: 90%;
+      height: auto;
+    }}
+
+  .flexright {
+      display: flex;
+      flex-wrap:wrap
+    }
+    
+    .flexright > div {
+      width: 500px;
+      margin: 1px;
+      text-align: right;
+      line-height: 75px;
+      font-family: 'plex_mono';
+      font-size: 15px;
+      color:black
+    }
+  
+  .flexleft {
+      display: flex;
+      flex-wrap:wrap;
+    }
+    
+    .flexleft > div {
+      width: 500px;
+      margin: 1px;
+      text-align: left;
+      line-height: 75px;
+      font-family:'plex_mono';
+      font-size: 15px;
+      color:black
+    }
+  
+  .flexcenter {
+      display: flex;
+      flex-wrap:wrap;
+    }
+    
+    .flexcenter > div {
+      width: 500px;
+      margin: 1px;
+      text-align: center;
+      line-height: 75px;
+      font-family:'plex_mono';
+      font-size: 15px;
+      color:black
+     
+    }
+  
+  .box {
+    box-shadow: 5px 5px 12px #00FF7F;
+    border-style:inset;
+    background-color: white;
+    padding: 10px;
+    display: inline;
+    margin:-100;
+    font-size: 14px;
+    font-weight: bold ;
+    color: #00d250;
+   
+    }
+  
+  body {font-family: 'plex_mono';
+      font-size: larger};
+  
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+
+
+    marquee {font-size: 15px;}
+
+    .boxbold {
+        box-shadow: 5px 5px 12px #00FF7F;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        display: inline;
+        margin:-100;
+        font-size: medium;
+        font-family:"plex_mono_bold" ;
+        color: #00d250;
+       
+        }
+
+        .boxbold-large {
+          box-shadow: 5px 5px 12px #00FF7F;
+          border-style:inset;
+          background-color: white;
+          padding: 10px;
+          display: inline;
+          margin:-100;
+          font-size: large;
+          font-family:"plex_mono_bold" ;
+          color: #00d250;
+         
+          }
+
+
+        .boxbold {
+          box-shadow: 5px 5px 12px #00FF7F;
+          border-style:inset;
+          background-color: white;
+          padding: 10px;
+          display: inline;
+          margin:-100;
+          font-size: medium;
+          font-family:"plex_mono_bold" ;
+          color: #00d250;
+         
+          }
+
+          .boxxxsmall {
+            box-shadow: 5px 5px 12px #00FF7F;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            margin:-100;
+            font-size: xx-small;
+            font-family:"plex_mono_bold" ;
+            color: #00d250;
+           
+            }
+      
+            .boxsmall {
+              box-shadow: 5px 5px 12px #00FF7F;
+              border-style:inset;
+              background-color: white;
+              padding: 10px;
+              display: inline;
+              margin:-100;
+              font-size: 11px;
+              font-family:"plex_mono" ;
+              color: #00d250;
+             
+              }
+      
+              .boxlarge {
+                box-shadow: 5px 5px 12px #00FF7F;
+                border-style:inset;
+                background-color: white;
+                padding: 10px;
+                display: inline;
+                margin:-100;
+                font-size: x-large;
+                font-family:"plex_mono" ;
+                color: #00d250;
+               
+                }
+
+                .boxsmall-bold {
+                  box-shadow: 5px 5px 12px #00FF7F;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  display: inline;
+                  margin:-100;
+                  font-size: 13px;
+                  font-family:"plex_mono_bold" ;
+                  color: #00d250;
+                }
+      
+                .boxxlarge-bold {
+                  box-shadow: 5px 5px 12px #00FF7F;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  display: inline;
+                  margin:-100;
+                  font-size: xx-large;
+                  font-family:"plex_mono_bold" ;
+                  color: #00d250;
+                 
+                  }
+
+                  .box-tolerateit{
+                    position: absolute;
+                    top: 1900px;
+                    left: 20px;
+                    z-index: 100;
+                    box-shadow: 5px 5px 12px #00FF7F;
+                    border-style:inset;
+                    background-color: white;
+                    padding: 10px;
+                    line-height: 7px;
+                    display: inline;
+                    margin: 1px;
+                    font-family:"Plex_Mono_bold" ;
+                    font-size: small;
+                    font-weight: bold ;
+                    color: #00d250;
+                  }
+
+                  .box-evermoresong{
+                    position: absolute;
+                    top: 2200px;
+                    left: 100px;
+                    z-index: 100;
+                    box-shadow: 5px 5px 12px #00FF7F;
+                    border-style:inset;
+                    background-color: white;
+                    padding: 10px;
+                    line-height: 7px;
+                    display: inline;
+                    margin: 1px;
+                    font-family:"Plex_Mono_bold" ;
+                    font-size: small;
+                    font-weight: bold ;
+                    color: #00d250;
+                  }
+
+                  .box-evermore{
+                    position: absolute;
+                    top: 1750px;
+                    left: 120px;
+                    z-index: 100;
+                    box-shadow: 5px 5px 12px #00FF7F;
+                    border-style:inset;
+                    background-color: white;
+                    padding: 10px;
+                    line-height: 7px;
+                    display: inline;
+                    margin: 1px;
+                    font-family:"Plex_Mono_bold" ;
+                    font-size: medium;
+                    font-weight: bold ;
+                    color: #00d250;
+                  }
+
+                  .box-station{
+                    position: absolute;
+                    top: 2400px;
+                    right: 150px;
+                    z-index: 100;
+                    box-shadow: 5px 5px 12px #00FF7F;
+                    border-style:inset;
+                    background-color: white;
+                    padding: 10px;
+                    line-height: 15px;
+                    display: inline;
+                    margin: 1px;
+                    font-family:"Plex_Mono_bold" ;
+                    font-size: 18px;
+                    font-weight: bold ;
+                    color: #00d250;
+                  }
+                  .box-parasite{
+                    position: absolute;
+                    top: 3500;
+                    right: 210px;
+                    z-index: 100;
+                    box-shadow: 5px 5px 12px #00FF7F;
+                    border-style:inset;
+                    background-color: white;
+                    padding: 10px;
+                    line-height: 7px;
+                    display: inline;
+                    margin: 1px;
+                    font-family:"Plex_Mono_bold" ;
+                    font-size: small;
+                    font-weight: bold ;
+                    color: #00d250;
+                  }
+                  
+                  .box-taylorsheesh{
+                    position: absolute;
+                    top: 40200;
+                    left: 5;
+                    z-index: 100;
+                    box-shadow: 5px 5px 12px #00FF7F;
+                    border-style:inset;
+                    background-color: white;
+                    padding: 10px;
+                    line-height: 35px;
+                    display: inline;
+                    margin: 1px;
+                    font-family:"Plex_Mono_bold" ;
+                    font-size: xx-large;
+                    font-weight: bold ;
+                    color: #00d250;
+                  }
+                  

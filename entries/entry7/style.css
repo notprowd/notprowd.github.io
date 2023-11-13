@@ -18,11 +18,18 @@
   h5 {font-family: 'Plex_Mono';
     font-size: 16px;}
     
-background-color:black
+.wrapper {overflow: auto;}
+
+#main {margin-left: 0px;}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
 
   .flexright {
       display: flex;
-      flex-wrap:flexwrap;
+      flex-wrap:wrap
     }
     
     .flexright > div {
@@ -37,7 +44,7 @@ background-color:black
   
   .flexleft {
       display: flex;
-      flex-wrap:flexwrap;
+      flex-wrap:wrap;
     }
     
     .flexleft > div {
@@ -52,7 +59,7 @@ background-color:black
   
   .flexcenter {
       display: flex;
-      flex-wrap:flexwrap;
+      flex-wrap:wrap;
     }
     
     .flexcenter > div {
