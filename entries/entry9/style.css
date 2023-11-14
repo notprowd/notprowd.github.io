@@ -1,0 +1,330 @@
+@font-face {
+  font-family:"player2" ;
+  src: url(imgs/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  font-family:"Plex_Mono" ;
+  src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+
+@font-face {
+  font-family:"Plex_Mono_bold" ;
+  src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+}
+
+h1 {font-family: "player2";}
+
+h5 {font-family: 'Plex_Mono';
+  font-size: 16px;}
+  
+.wrapper {overflow: auto;}
+
+#main {margin-left: 0px;}
+
+@media screen and (min-width: 480px){
+#leftsidebar {width: 200px; float: left;}
+#main {margin-left: 216px;}
+#main {margin-right: 216px;}
+}
+
+
+::selection {
+  background-color: rgba(255, 238, 0, 0.759);
+  color:#0000FF
+}
+
+@media screen and (max-width: 600px) {
+body {
+font-size: 12px;
+
+}}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 90%;
+    height: auto;
+  }}
+
+.flexright {
+    display: flex;
+    flex-wrap:wrap
+  }
+  
+  .flexright > div {
+    width: 500px;
+    margin: 1px;
+    text-align: right;
+    line-height: 75px;
+    font-family: 'plex_mono';
+    font-size: 15px;
+    color:black
+  }
+
+.flexleft {
+    display: flex;
+    flex-wrap:wrap;
+  }
+  
+  .flexleft > div {
+    width: 500px;
+    margin: 1px;
+    text-align: left;
+    line-height: 75px;
+    font-family:'plex_mono';
+    font-size: 15px;
+    color:black
+  }
+
+.flexcenter {
+    display: flex;
+    flex-wrap:wrap;
+  }
+  
+  .flexcenter > div {
+    width: 500px;
+    margin: 1px;
+    text-align: center;
+    line-height: 75px;
+    font-family:'plex_mono';
+    font-size: 15px;
+    color:black
+   
+  }
+
+.box {
+  box-shadow: 5px 5px 12px #fff700;
+  border-style:inset;
+  background-color: white;
+  padding: 10px;
+  display: inline;
+  margin:-100;
+  font-size: 14px;
+  font-weight: bold ;
+  color: #e2b900;
+ 
+  }
+
+body {font-family: 'plex_mono';
+    font-size: larger};
+
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+
+
+  marquee {font-size: 15px;}
+
+  .boxbold {
+      box-shadow: 5px 5px 12px #FFF700;
+      border-style:inset;
+      background-color: white;
+      padding: 10px;
+      display: inline;
+      margin:-100;
+      font-size: medium;
+      font-family:"plex_mono_bold" ;
+      color: #d89b00;
+     
+      }
+
+      .boxbold-large {
+        box-shadow: 5px 5px 12px #FFF700;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        display: inline;
+        margin:-100;
+        font-size: large;
+        font-family:"plex_mono_bold" ;
+        color: #ecc100;
+       
+        }
+
+
+      .boxbold {
+        box-shadow: 5px 5px 12px #FFF700;
+        border-style:inset;
+        background-color: white;
+        padding: 10px;
+        display: inline;
+        margin:-100;
+        font-size: medium;
+        font-family:"plex_mono_bold" ;
+        color: #ecc100;
+       
+        }
+
+        .boxxxsmall {
+          box-shadow: 5px 5px 12px #FFF700;
+          border-style:inset;
+          background-color: white;
+          padding: 10px;
+          display: inline;
+          margin:-100;
+          font-size: xx-small;
+          font-family:"plex_mono_bold" ;
+          color: #ecc100;
+         
+          }
+    
+          .boxsmall {
+            box-shadow: 5px 5px 12px #FFF700;
+            border-style:inset;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            margin:-100;
+            font-size: 11px;
+            font-family:"plex_mono" ;
+            color: #ecc100;
+           
+            }
+    
+            .boxlarge {
+              box-shadow: 5px 5px 12px #FFF700;
+              border-style:inset;
+              background-color: white;
+              padding: 10px;
+              display: inline;
+              margin:-100;
+              font-size: x-large;
+              font-family:"plex_mono" ;
+              color: #ecc100;
+             
+              }
+
+              .boxsmall-bold {
+                box-shadow: 5px 5px 12px #FFF700;
+                border-style:inset;
+                background-color: white;
+                padding: 10px;
+                display: inline;
+                margin:-100;
+                font-size: 13px;
+                font-family:"plex_mono_bold" ;
+                color: #ecc100;
+              }
+    
+              .boxxlarge-bold {
+                box-shadow: 5px 5px 12px #FFF700;
+                border-style:inset;
+                background-color: white;
+                padding: 10px;
+                display: inline;
+                margin:-100;
+                font-size: xx-large;
+                font-family:"plex_mono_bold" ;
+                color: #ecc100;
+               
+                }
+
+                .box-bus{
+                  position: absolute;
+                  top: 1750px;
+                  right: 100px;
+                  z-index: 1;
+                  box-shadow: 5px 5px 12px #FFF700;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  line-height: 7px;
+                  display: inline;
+                  margin: 1px;
+                  font-family:"Plex_Mono_bold" ;
+                  font-size: 12px;
+                  font-weight: bold ;
+                  color: #ecc100;
+                }
+
+                .box-nice{
+                  position: absolute;
+                  top: 1830px;
+                  right: 500px;
+                  z-index: 2;
+                  box-shadow: 5px 5px 12px #FFF700;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  line-height: 15px;
+                  display: inline;
+                  margin: 1px;
+                  font-family:"Plex_Mono_bold" ;
+                  font-size: 10px;
+                  font-weight: bold ;
+                  color: #ecc100;
+                }
+
+                .box-tunnel{
+                  position: absolute;
+                  top: 2200px;
+                  right: 100px;
+                  z-index: 4;
+                  box-shadow: 5px 5px 12px #FFF700;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  line-height: 15px;
+                  display: inline;
+                  margin: 1px;
+                  font-family:"Plex_Mono_bold" ;
+                  font-size: small;
+                  font-weight: bold ;
+                  color: #ecc100;
+                }
+
+                .box-disney{
+                  position: absolute;
+                  top: 2250px;
+                  right: 135px;
+                  z-index: 3;
+                  box-shadow: 5px 5px 12px #FFF700;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  line-height: 15px;
+                  display: inline;
+                  margin: 1px;
+                  font-family:"Plex_Mono" ;
+                  font-size: MEDIUM;
+
+                  color: #ecc100;
+                }
+
+                .box-wind{
+                  position: absolute;
+                  top: 2200px;
+                  left: 30px;
+                  z-index: 4;
+                  box-shadow: 5px 5px 12px #FFF700;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  line-height: 8px;
+                  display: inline;
+                  margin: 1px;
+                  font-family:"Plex_Mono_bold" ;
+                  font-size: smaller;
+                  font-weight: bold ;
+                  color: #ecc100;
+                }
+
+                .box-windy{
+                  position: absolute;
+                  top: 2300px;
+                  left: 300px;
+                  z-index: 4;
+                  box-shadow: 5px 5px 12px #FFF700;
+                  border-style:inset;
+                  background-color: white;
+                  padding: 10px;
+                  line-height: 8px;
+                  display: inline;
+                  margin: 1px;
+                  font-family:"Plex_Mono_bold" ;
+                  font-size: xx-large;
+                  font-weight: bold ;
+                  color: #ecc100;
+                }
