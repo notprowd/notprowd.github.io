@@ -1,0 +1,54 @@
+@font-face {
+    font-family:"player2" ;
+    src: url(imgs/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Plex_Mono" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Plex_Mono_bold" ;
+    src: url(imgs/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  }
+
+h1 {font-family: "player2";}
+
+h5 {font-family: 'Plex_Mono';
+    font-size: 14px;}
+
+body {font-family: 'plex_mono';}
+
+@media screen and (max-width: 600px) {
+    body {
+    font-size: 16px;
+    
+    }}
+    
+    @media screen and (max-width: 600px) {
+      img {
+        width: 90%;
+        height: auto;
+      }}
+
+      .flexcenter {
+        display: flex;
+        flex-wrap:flexwrap;
+      }
+      
+      .flexcenter > div {
+        width: 500px;
+        margin: 1px;
+        text-align: center;
+        line-height: 75px;
+        font-family:'plex_mono';
+        font-size: 15px;
+        color:black
+       
+      }
+
+      button {font-family: "plex_mono_bold";
+        font-size: 16px;
+        padding: 5px;
+      }

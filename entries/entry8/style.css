@@ -163,7 +163,7 @@
             padding: 10px;
             display: inline;
             margin:-100;
-            font-size: xx-small;
+            font-size: 11px;
             font-family:"plex_mono_bold" ;
             color: #00d250;
            
@@ -327,3 +327,8 @@
                     color: #00d250;
                   }
                   
+                  button {font-family: "plex_mono_bold";
+                    font-size: 16px;
+                    padding: 5px;
+              
+                    }

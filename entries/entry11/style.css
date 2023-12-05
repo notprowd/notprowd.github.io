@@ -1,3 +1,9 @@
+button {font-family: "plex_mono_bold";
+  font-size: 16px;
+  padding: 5px;
+
+  }
+
 .responsive {
   width: 100%;
   max-width: 400px;

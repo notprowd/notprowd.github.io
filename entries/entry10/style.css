@@ -151,3 +151,9 @@ font-size: 12px;
       color: #ff6a00;
 
     }
+   
+    button {font-family: "plex_mono_bold";
+      font-size: 16px;
+      padding: 5px;
+
+      }

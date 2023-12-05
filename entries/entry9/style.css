@@ -328,3 +328,40 @@ body {font-family: 'plex_mono';
                   font-weight: bold ;
                   color: #ecc100;
                 }
+
+                button {font-family: "plex_mono_bold";
+                  font-size: 16px;
+                  padding: 5px;
+            
+                  }
+
+                  #box {
+                    position: absolute;
+                    top: 2875px;
+                    left: 1035px;
+                    z-index: 9;
+                    background-color: #f1f1f1;
+                    box-shadow: 5px 5px 12px #FFF700;
+                    text-align: center;
+                  }
+                  
+                  #boxheader {
+                    padding: 10px;
+                    cursor: move;
+                    background-color: #FFF700;
+                    display: inline;
+                    margin:0;
+                    font-size: 14px;
+                    font-family:"Plex_Mono_bold";
+                    color: #000000;
+              
+                  }
+
+                  .fade-in {
+                    opacity: 0;
+                    transition: opacity 0.001s ease-in-out; 
+                  }
+                
+                  .fade-in:hover {
+                    opacity: 1;
+                  }
