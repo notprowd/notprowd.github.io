@@ -286,3 +286,321 @@ font-size: 12px;
       color: #10bda6;
 
     }
+
+    #box8 {
+      position: absolute;
+      top: 2055px;
+      left: 500px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader8 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 14px;
+      font-family:"Plex_Mono";
+      color: #10bda6;
+
+    }
+
+    #box9 {
+      position: absolute;
+      top: 2155px;
+      left: 640px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader9 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 14px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+
+    #box10 {
+      position: absolute;
+      top: 2355px;
+      left: 940px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader10 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 12px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+    #box11 {
+      position: absolute;
+      top: 2455px;
+      left: 550px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader11 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 20px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+    #box12 {
+      position: absolute;
+      top: 2555px;
+      left: 640px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader12 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 12px;
+      font-family:"Plex_Mono";
+      color: #10bda6;
+
+    }
+
+    #box13 {
+      position: absolute;
+      top: 2755px;
+      left: 960px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader13 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 14px;
+      font-family:"Plex_Mono";
+      color: #10bda6;
+
+    }
+
+    #box14 {
+      position: absolute;
+      top: 2855px;
+      left: 800px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader14 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 20px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+    #box15 {
+      position: absolute;
+      top: 2955px;
+      left: 520px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader15 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 25px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+    #box16 {
+      position: absolute;
+      top: 3055px;
+      left: 900px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader16 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 25px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+
+    #box17 {
+      position: absolute;
+      top: 3155px;
+      left: 800px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader17 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 12px;
+      font-family:"Plex_Mono";
+      color: #10bda6;
+
+    }
+
+
+    #box18 {
+      position: absolute;
+      top: 3255px;
+      left: 400px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #boxheader18 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 18px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+    #box18 {
+      position: absolute;
+      top: 3255px;
+      left: 400px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+    #box19 {
+      position: absolute;
+      top: 3270px;
+      left: 100px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    
+    #box20 {
+      position: absolute;
+      top: 3305px;
+      left: 500px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+    #boxheader21 {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      box-shadow: 5px 5px 12px #00ffee;
+      border-style:inset;
+      background-color: white;
+      display: inline;
+      margin:0;
+      font-size: 12px;
+      font-family:"Plex_Mono_bold";
+      color: #10bda6;
+
+    }
+
+    #box21 {
+      position: absolute;
+      top: 3450px;
+      left: 600px;
+      z-index: 10;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
