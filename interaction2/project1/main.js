@@ -6,6 +6,7 @@ document.addEventListener('mouseup', function() {
     document.body.style.cursor = "grab"
 });
     
+    
     function addBall() {
         const container = document.getElementById('container');
         const ball = document.createElement('div');
@@ -100,3 +101,5 @@ const balls = [
           audio.currentTime = 0; 
       }
   });
+
+  

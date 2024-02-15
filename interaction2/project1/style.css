@@ -5,6 +5,7 @@
     src: url(imgs/nds12/NDS12.ttf);
 }
 
+
 body {font-family: "nds12";
     font-size: 19px;
     color: rgb(255, 255, 255);
@@ -75,6 +76,7 @@ body {font-family: "nds12";
         bottom: 125%;
         left: 50%;
         margin-left: -80px;
+
       }
 
       .popup .show {
@@ -92,6 +94,19 @@ body {font-family: "nds12";
         from {opacity: 0;}
         to {opacity:1 ;}
       }
+
+      .message {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        color: white;
+        border-radius: 5px;
+        opacity: 0; 
+        transition: opacity 0.15s ease-in; 
+    }
 
       .button {
         background-color: #ffffff;
@@ -113,9 +128,9 @@ body {font-family: "nds12";
         transition-duration: 0.2s;
         background-color: rgb(238, 238, 238);
         color: rgb(48, 48, 48);
-        cursor: pointer;
         border-radius: 50%;
         border-style: inset;
+        cursor: pointer;
       }
 
 
@@ -128,7 +143,6 @@ body {font-family: "nds12";
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.1s;
-        cursor: pointer;
         border-radius: 100%;
         padding: 10px;
         font-family: Helvetica;
@@ -136,15 +150,16 @@ body {font-family: "nds12";
         position: absolute;
         bottom: 90px;
         right: 60px;
+        cursor: pointer;
       }
 
       .button1:hover {
         transition-duration: 0.2s;
         background-color: rgb(238, 238, 238);
         color: rgb(48, 48, 48);
-        cursor: pointer;
         border-radius: 50%;
         border-style: inset;
+        cursor: pointer;
       }
 
       .button2 {
@@ -156,7 +171,6 @@ body {font-family: "nds12";
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.1s;
-        cursor: pointer;
         border-radius: 100%;
         padding: 10px;
         font-family: Helvetica;
@@ -164,15 +178,16 @@ body {font-family: "nds12";
         position: absolute;
         right: 60px;
         bottom: 15px;
+        cursor: pointer;
       }
 
       .button2:hover {
         transition-duration: 0.2s;
         background-color: rgb(238, 238, 238);
         color: rgb(48, 48, 48);
-        cursor: pointer;
         border-radius: 50%;
         border-style: inset;
+        cursor: pointer;
       }
 
       .button3 {
@@ -184,7 +199,6 @@ body {font-family: "nds12";
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.1s;
-        cursor: pointer;
         border-radius: 100%;
         padding: 10px;
         font-family: Helvetica;
@@ -192,6 +206,7 @@ body {font-family: "nds12";
         position: absolute;
         right: 20px;
         bottom: 53px;
+        cursor: pointer;
       }
 
       .button3:hover {
@@ -201,6 +216,7 @@ body {font-family: "nds12";
         cursor: pointer;
         border-radius: 50%;
         border-style: inset;
+        cursor: pointer;
       }
 
       .button4 {
@@ -212,7 +228,6 @@ body {font-family: "nds12";
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.1s;
-        cursor: pointer;
         border-radius: 100%;
         padding: 10px;
         font-family: Helvetica;
@@ -220,13 +235,14 @@ body {font-family: "nds12";
         position: absolute;
         right: 100px;
         bottom: 55px;
+        cursor: pointer;
       }
 
       .button4:hover {
         transition-duration: 0.2s;
         background-color: rgb(238, 238, 238);
         color: rgb(48, 48, 48);
-        cursor: pointer;
         border-radius: 50%;
         border-style: inset;
+        cursor: pointer;
       }
