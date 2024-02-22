@@ -2,14 +2,9 @@ document.addEventListener('mousedown', function() {
     document.body.style.cursor = "grabbing";
 });
 
-document.addEventListener('mousedown', function() {
-    audioElement.play('imgs/click.mp3');
-});
-
-document.addEventListener('mouseup', function() {
+addEventListener('mouseup', function() {
     document.body.style.cursor = "grab"
 });
-
 
     function addBall() {
         const container = document.getElementById('container');
@@ -106,5 +101,14 @@ const balls = [
       }
   });
 
+  const Audio = new audio('imgs/click.mp3'); // Replace 'click_sound.mp3' with the path to your sound file
+
+// Add click event listener to the document
+document.addEventListener('click', function() {
+    // Play the audio when the document is clicked
+    audio.play();
+});
+
+  
 
   
