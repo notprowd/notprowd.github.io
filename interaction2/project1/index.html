@@ -9,6 +9,12 @@
     
 <body>
    
+    <audio id="mousedown-sound">
+        <source src="imgs/click2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+     
+
 <div class="container" id="container"></div>
 <button class="button4" class="message-button" onclick="toggleMessage()">&nbsp;Y&nbsp;</button>
 
@@ -36,14 +42,17 @@
         }
     }
 </script>
+
 <button id="playButton" class="button3">&nbsp;A&nbsp;</button> 
     <audio id="audio" loop>
       <source src="imgs/aquarium 2.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
 
+
 <button class="button1" onclick="addBall()">&nbsp;X&nbsp;</button>
 <button class="button2" onclick="removeBall()">&nbsp;B&nbsp;</button>
+
 
 <script type="text/javascript" src="main.js"></script>
 

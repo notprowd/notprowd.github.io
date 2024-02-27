@@ -1,3 +1,11 @@
+const mousedownSound = document.getElementById('mousedown-sound');
+
+// Add event listener for mouse down event
+document.addEventListener('mousedown', function() {
+    // Play the sound
+    mousedownSound.play();
+});
+
 document.addEventListener('mousedown', function() {
     document.body.style.cursor = "grabbing";
 });
@@ -86,6 +94,7 @@ const balls = [
     requestAnimationFrame(animate);
   }
 
+  
 
   animate();
 
